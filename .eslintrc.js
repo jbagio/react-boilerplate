@@ -1,16 +1,15 @@
 module.exports = {
   env: {
     browser: true,
-    jest: true
+    jest: true,
   },
   extends: [
     'react-app',
-    'plugin:prettier/recommended'
+    'plugin:prettier/recommended',
+    'plugin:react/recommended',
   ],
-  plugins: [
-    'prettier'
-  ],
+  plugins: ['prettier'],
   rules: {
-    'prettier/prettier': 'error'
-  }
-}
+    'prettier/prettier': 'error',
+  },
+};
